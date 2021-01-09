@@ -8,8 +8,9 @@ h1, h2, h3 {
 }
 
 
-h2 {
-    color: #0808c5;}
+h4, h5 {
+    color: #1b7f00;
+}
     
 
 .center {
@@ -18,7 +19,6 @@ h2 {
 }
 
 .jumbotron {
-    height:150px;
     margin: 0;
     padding: 5px;
     background-image: linear-gradient(to right, #d8d4eb,
@@ -70,15 +70,35 @@ h2 {
 
 .navbar {
     background-color: rgb(26, 21, 21);
-    height: 80px;
 }
 
+.image-resize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+.polaroid-picture {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.polaroid-text {
+    text-align: center;
+    padding: 10px 20px;
+}
 
 /*  features section styles */
 .features-section {
     height:  400px;
     background-color: #cea135;
-    border-top: 10px solid white;
+    /*border-top: 10px solid white;*/
     color: #11122b;
     display: flex;
     justify-content: center;
