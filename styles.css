@@ -72,6 +72,43 @@ h4, h5 {
     background-color: rgb(26, 21, 21);
 }
 
+/* additional pages header */
+.smaller-header {
+    background-image: url(images/other_images/chef_res_bigger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+
+.smaller-header > .first-heading {
+    padding: 1px 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #cbcbcb;
+    width:  390px;
+    border-radius: 2px;
+}
+
+.smaller-header > .second-heading {
+    background-color: #cea135;
+    color: #2b1411;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 240px;
+    border-radius: 2px;
+}
+
+/* image overlay */
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+
 .image-resize {
     display: block;
     margin-left: auto;
